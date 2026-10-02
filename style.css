@@ -1041,28 +1041,74 @@ footer {
 @media (max-width: 600px) {
 
     .navbar {
-        height: 72px;
+        height: 70px;
+        padding: 0 5vw;
+    }
+
+    .brand {
+        margin-left: 0;
     }
 
     .brand-name {
-        font-size: 24px;
-        letter-spacing: 5px;
+        font-size: 22px;
+        letter-spacing: 4px;
     }
 
     .register-nav {
-        padding: 10px 14px;
+        padding: 11px 13px;
+        font-size: 9px;
+        letter-spacing: 1.8px;
     }
 
+    .register-nav span {
+        margin-left: 8px;
+    }
+
+
+    /* =========================
+       MOBILE HERO
+    ========================= */
+
     .hero {
-        padding-top: 130px;
+        min-height: 100vh;
+
+        padding:
+            105px
+            7vw
+            70px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .eyebrow {
+        font-size: 9px;
+        letter-spacing: 4px;
+        margin-bottom: 28px;
     }
 
     .hero h1 {
-        font-size: 64px;
+        font-size: 56px;
+        line-height: .88;
+        letter-spacing: -3px;
     }
+
+    .hero-description {
+        margin-top: 38px;
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+
+    /* =========================
+       EVENT INFORMATION
+    ========================= */
 
     .hero-information {
         display: block;
+        margin-top: 48px;
     }
 
     .info-divider {
@@ -1070,24 +1116,86 @@ footer {
     }
 
     .info-item {
-        margin-bottom: 20px;
+        margin-bottom: 24px;
+    }
+
+    .info-icon {
+        font-size: 20px;
+    }
+
+    .info-item small {
+        font-size: 8px;
+        margin-bottom: 6px;
+    }
+
+    .info-item strong {
+        font-size: 10px;
+    }
+
+    .info-item span {
+        font-size: 8px;
     }
 
     .keywords {
-        margin-top: 30px;
+        margin-top: 32px;
+        font-size: 7px;
+        letter-spacing: 2.5px;
     }
 
-    .section {
-        padding: 100px 7vw;
+
+    /* =========================
+       DECORATION
+    ========================= */
+
+    .gold-line {
+        opacity: .45;
     }
+
+    .gold-circle {
+        width: 180px;
+        height: 180px;
+        right: -55px;
+        bottom: 5%;
+    }
+
+
+    /* Hide desktop-style scroll indicator */
+    .scroll-indicator {
+        display: none;
+    }
+
+
+    /* =========================
+       SECTIONS
+    ========================= */
+
+    .section {
+        padding: 90px 7vw;
+    }
+
+    .section h2 {
+        font-size: 58px;
+        line-height: .9;
+    }
+
+
+    /* =========================
+       TRACKS
+    ========================= */
 
     .track-grid {
         grid-template-columns: 1fr;
+        margin-top: 55px;
     }
 
     .track-card {
         border-right: none;
     }
+
+
+    /* =========================
+       ABOUT
+    ========================= */
 
     .about-visual {
         height: 400px;
@@ -1105,6 +1213,11 @@ footer {
         font-size: 17px;
     }
 
+
+    /* =========================
+       FOOTER
+    ========================= */
+
     footer {
         grid-template-columns: 1fr;
     }
@@ -1119,7 +1232,6 @@ footer {
     }
 
 }
-
 /* =====================================================
    INTERACTIVE TRACK DETAILS
 ===================================================== */
